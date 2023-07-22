@@ -27,6 +27,7 @@ import (
 	"github.com/sigstore/cosign/v2/internal/ui"
 
 	// Register the provider-specific plugins
+	_ "github.com/sigstore/sigstore/pkg/signature/kms/alibaba"
 	_ "github.com/sigstore/sigstore/pkg/signature/kms/aws"
 	_ "github.com/sigstore/sigstore/pkg/signature/kms/azure"
 	_ "github.com/sigstore/sigstore/pkg/signature/kms/gcp"

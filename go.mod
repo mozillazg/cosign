@@ -33,6 +33,7 @@ require (
 	github.com/sigstore/fulcio v1.4.0
 	github.com/sigstore/rekor v1.2.2
 	github.com/sigstore/sigstore v1.7.1
+	github.com/sigstore/sigstore/pkg/signature/kms/alibaba v1.7.1
 	github.com/sigstore/sigstore/pkg/signature/kms/aws v1.7.1
 	github.com/sigstore/sigstore/pkg/signature/kms/azure v1.7.1
 	github.com/sigstore/sigstore/pkg/signature/kms/gcp v1.7.1
@@ -104,6 +105,7 @@ require (
 	github.com/alibabacloud-go/tea v1.1.18 // indirect
 	github.com/alibabacloud-go/tea-utils v1.4.4 // indirect
 	github.com/alibabacloud-go/tea-xml v1.1.2 // indirect
+	github.com/aliyun/alibabacloud-dkms-gcs-go-sdk v0.3.0 // indirect
 	github.com/aliyun/credentials-go v1.2.3 // indirect
 	github.com/asaskevich/govalidator v0.0.0-20230301143203-a9d515a09cc2 // indirect
 	github.com/aws/aws-sdk-go v1.44.301 // indirect
@@ -291,3 +293,5 @@ require (
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.3 // indirect
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
+
+replace github.com/sigstore/sigstore/pkg/signature/kms/alibaba v1.7.1 => github.com/mozillazg/sigstore/pkg/signature/kms/alibaba v1.7.1
